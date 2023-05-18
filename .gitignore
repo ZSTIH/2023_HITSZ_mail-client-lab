@@ -1,3 +1,4 @@
 *.o
 recv
 send
+*.log
