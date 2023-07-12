@@ -1,37 +1,15 @@
-# maillab
+# 2023_HITSZ_mail-client-lab
 
-#### 介绍
-邮件客户端实验代码框架
+邮件客户端的设计与实现
 
-#### 软件架构
-软件架构说明
+哈尔滨工业大学（深圳）2023年春季学期《计算机网络》课程实验的**邮件客户端**实验部分
 
+## 简介
 
-#### 安装教程
+本人该门课程**实验部分的成绩为满分**。
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+代码使用步骤：
 
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+- 修改 `recv.c` 文件以及 `send.c` 文件中的主机名、端口号、邮件地址、授权码等为合法值
+- 修改文件 `test.sh` 中的命令行参数为合法值
+- 执行文件 `test.sh` 中的命令
